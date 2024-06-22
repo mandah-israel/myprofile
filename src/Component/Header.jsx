@@ -41,7 +41,7 @@ export default function Header(){
     return(
      <div className="vite">
         <div className="header">
-            <Link className="xim">Izzy<span>Blinkz</span></Link>
+            <Link className="xim">Code<span>Lord</span></Link>
             <ul className={visible?"":"nav"}>
                 <li><Link to="/home">Home</Link></li>
                 <li><Link onClick={Touch}>About</Link></li>

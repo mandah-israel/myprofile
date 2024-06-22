@@ -6,6 +6,10 @@ import java from "../../src/Images/java.png"
 import tail from "../../src/Images/tail.png"
 import html from "../../src/Images/html.png"
 import github from "../../src/Images/github.png"
+import hot from "../../src/Images/hot.png"
+import hero from "../../src/Images/hero.png"
+import spy from "../../src/Images/spy.png"
+import zion from "../../src/Images/zion.jpg"
 import Footer from "../Component/Footer"
 import { Link } from "react-router-dom"
 import {XLogo,Envelope,GithubLogo,LinkedinLogo} from "@phosphor-icons/react"
@@ -47,11 +51,11 @@ const Home=()=>{
      }
      function handleClick(){
         setClick(true);
-        window.location.href="mailto:someone@example.com?subject=Subject&body=Body";
+        window.location.href="mailto:mandahisrael@gmail.com?subject=Subject&body=Body";
      }
      function handlePress(){
         setHit(true);
-        window.location.href="mailto:someone@example.com?subject=Subject&body=Body";
+        window.location.href="mailto:mandahisrael@gmail.com?subject=Subject&body=Body";
      }
     return(
 <div className="vite">
@@ -108,22 +112,61 @@ const Home=()=>{
         <div className="about sky ma-g pa-d">
         <h2>Projects</h2>
         <p>Check out some of my recent projects.</p>
-        <div className="link">
-            <Link to="https://workspace-puce.vercel.app">workspace</Link>
-            <Link to="https://ai-fashion-eta.vercel.app/">ai fashion</Link>
-            <Link to="https://ai-fashion-eta.vercel.app/">ai fashion</Link>
+        <div className="gux">
+        <div className="hox">
+                <img src={hot} alt="" />
+                <div className="velle">
+                    <h3>AI Fashion Design</h3>
+                    <Link to="https://ai-fashion-eta.vercel.app/">View Project</Link>
+                </div>
+            </div> 
+            <div className="hox fox">
+                <img src={zion} alt="" />
+                <div className="velle">
+                    <h3>Workspace</h3>
+                    <Link to="https://workspace-puce.vercel.app">View Project</Link>
+                </div>
+            </div> 
         </div>
     </div>
 </div>
+        <div className="about sky ma-g pa-d">
+        <h2>Articles</h2>
+        <p>Check out some of my Articles.</p>
+        <div className="gux">
+        <div className="hox">
+                <img src={spy} alt="" />
+                <div className="velle">
+                    <h3>Infinite Scrolling with React Query</h3>
+                    <Link to="https://blog.openreplay.com/infinite-scrolling-with-react-query">View Article</Link>
+                </div>
+            </div> 
+            <div className="hox fox">
+                <img src={hero} alt="" />
+                <div className="velle">
+                    <h3>Multi step Transform</h3>
+                    <Link to="https://blog.openreplay.com/multi-step-forms-with-transition-effects-in-react">View Article</Link>
+                </div>
+            </div> 
+        </div>
+    </div>
 <div className={point?"":"fin"}>
     <div className="about sky fin ma-g pa-d">
         <h2>Contact</h2>
         <p>Reach to me on the following</p>
-        <div className="logo"> 
+        <div className="logo">
+            <div className="ink">
             <Link to="https://www.linkedin.com/in/mandah-israel-871a12242"><LinkedinLogo size={30}/></Link>
+            </div> 
+            <div className="ink">
             <Link to="http://twitter.com/IsraelMandah?t=6A92WU78Fg-h7cNPH8ssYg&s=09"><XLogo size={30}/></Link>
+            </div>
+            <div className="ink">
             <Link onClick={handlePress}><Envelope size={30}/></Link>
+            </div>
+            <div className="ink">
             <Link to="https://github.com/mandah-israel"><GithubLogo size={30}/></Link>
+            </div>
         </div>
         <button onClick={handleClick}>Let's Talk</button>
     </div>
