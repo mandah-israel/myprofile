@@ -79,14 +79,14 @@
 .vice h2{
  font-family:script;
  font-size:30px; 
- color:black;
+ color:rgba(0, 0, 0, 0.568);
 }
 .vice h3{
   color:rgba(128, 128, 128, 0.685);
   font-size:22px;
 }
 .vice p{
-  color:black;
+  color:rgba(0, 0, 0, 0.568);
   font-size:16px;
 }
 /*About*/
@@ -99,7 +99,7 @@ line-height:30px;
   width:90px;
 }
 .about h3{
-  color:black;
+  color:rgba(0, 0, 0, 0.568);
   font-size:22px;
   margin-top:10px;
 }
@@ -107,7 +107,7 @@ line-height:30px;
   color:rgba(128, 128, 128, 0.685);
 }
 .about p{
-  color:black;
+  color:rgba(0, 0, 0, 0.568);
   margin:15px 0;
   font-size:16px;
 }
@@ -130,12 +130,12 @@ line-height:30px;
   margin:5px;
 }
 .vic h4{
-  color:black;
+  color:rgba(0, 0, 0, 0.568);
   font-weight:lighter;
   font-size:16px;
 }
 .vic .git{
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0.822);
   border-radius:50px;
 }
 .gim{
@@ -163,10 +163,12 @@ line-height:30px;
   width:300px;
   height:420px;
   margin:10px;
+  box-shadow:1px 3px 4px rgba(128, 128, 128, 0.39);
+  border-radius:15px;
 }
 .hox .velle{
-  line-height:25px;
-  padding-left:5px;
+  line-height:22px;
+  padding-left:20px;
 }
 .hox:hover{
   box-shadow:1px 3px 4px rgba(128, 128, 128, 0.39);
@@ -232,6 +234,7 @@ line-height:30px;
   border-radius:8px;
   font-weight:bold;
   background-color:rgb(135, 207, 235);
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .fin button:hover{
   background-color:rgba(135, 207, 235, 0.479);
@@ -242,7 +245,7 @@ line-height:30px;
   display: flex;
   justify-content:flex-start;
   align-items:flex-start;
-  color:black;
+  color:rgba(0, 0, 0, 0.568);
   line-height:30px;
   margin:0 100px;
 }

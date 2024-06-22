@@ -49,7 +49,7 @@ export default function Header(){
                 <li><Link onClick={kick}>Project</Link></li>
                 <li><Link onClick={dive}>Contact</Link></li>
             </ul>
-            <div onClick={show} className="list">{visible?<X size={30}/>:<List size={30}/>}</div>
+            <div onClick={show} className="list">{visible?<List size={30}/>:<List size={30}/>}</div>
         </div>
      </div>   
     )
