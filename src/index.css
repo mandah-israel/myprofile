@@ -31,8 +31,6 @@
   color:rgba(135, 207, 235, 0.479);
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight:bold;
-
-
 }
 .header .xim{
   color:rgb(135, 207, 235);
@@ -64,7 +62,7 @@
 }
 .vice img{
   width:1000px;
-  height:300px;
+  max-height:450px;
   object-fit:cover;
   border-radius:20px;
 }
@@ -303,7 +301,7 @@ line-height:30px;
 }
 .vice img{
   width:750px;
-  height:400px;
+  max-height:1000px;
 }
  }
 
@@ -351,7 +349,7 @@ line-height:30px;
 }
 .vice img{
   width:500px;
-  height:400px;
+  max-height:655px;
 }
 /*Porject*/
 .hox{
