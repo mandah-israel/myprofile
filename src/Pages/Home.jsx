@@ -6,7 +6,7 @@ import java from "../../src/Images/java.png"
 import tail from "../../src/Images/tail.png"
 import html from "../../src/Images/html.png"
 import github from "../../src/Images/github.png"
-import hot from "../../src/Images/hot.png"
+import hote from "../../src/Images/hote.jpeg"
 import hero from "../../src/Images/hero.png"
 import spy from "../../src/Images/spy.png"
 import zion from "../../src/Images/zion.jpg"
@@ -61,7 +61,9 @@ const Home=()=>{
 <div className="vite">
     <Header/>
     <div className="vice ma-g">
-        <img src={izzy}/>  
+        <div className="spice">
+        <img src={izzy}/>   
+        </div> 
         <div className="vix">
             <h4>Hi, my name is</h4>
             <h2>Mandah Israel</h2>
@@ -114,7 +116,7 @@ const Home=()=>{
         <p>Check out some of my recent projects.</p>
         <div className="gux">
         <div className="hox">
-                <img src={hot} alt="" />
+                <img src={hote} alt="" />
                 <div className="velle">
                     <h3>AI Fashion Design</h3>
                     <Link to="https://ai-fashion-eta.vercel.app/">View Project</Link>
@@ -134,14 +136,14 @@ const Home=()=>{
         <h2>Articles</h2>
         <p>Check out some of my Articles.</p>
         <div className="gux">
-        <div className="hox">
+        <div className="hox flex">
                 <img src={spy} alt="" />
                 <div className="velle">
-                    <h3>Infinite Scrolling with React Query</h3>
+                    <h3>Infinite Scroll with React Query</h3>
                     <Link to="https://blog.openreplay.com/infinite-scrolling-with-react-query">View Article</Link>
                 </div>
             </div> 
-            <div className="hox fox">
+            <div className="hox fox flex">
                 <img src={hero} alt="" />
                 <div className="velle">
                     <h3>Multi step Transform</h3>
