@@ -68,7 +68,7 @@ const Home=()=>{
             <h4>Hi, my name is</h4>
             <h2>Mandah Israel</h2>
             <h3>I'm a Frontend Developer.</h3>
-            <p>I'm a Frontend Developer specializing in creating responsive and dynamic user interface. My work focuses on ensuring seamles user experience across various devices and platforms. I am passionate about staying updated with latest trends and technologies in frontend development and continuously improving my skills to deliver high-quality, user-centric websites.</p>
+            <p>I'm a Frontend Developer specializing in creating responsive and dynamic user interface. My work focuses on ensuring seamles user experience across various devices and platforms.</p>
         </div>
     </div>
     <div className={scroll?"":"mega"}>
