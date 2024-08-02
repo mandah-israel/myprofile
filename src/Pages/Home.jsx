@@ -10,6 +10,7 @@ import hote from "../../src/Images/hote.jpeg"
 import hero from "../../src/Images/hero.png"
 import spy from "../../src/Images/spy.png"
 import zion from "../../src/Images/zion.jpg"
+import foll from "../../src/Images/foll.webp"
 import Footer from "../Component/Footer"
 import { Link } from "react-router-dom"
 import {XLogo,Envelope,GithubLogo,LinkedinLogo} from "@phosphor-icons/react"
@@ -128,7 +129,14 @@ const Home=()=>{
                     <h3>Workspace</h3>
                     <Link to="https://workspace-puce.vercel.app">View Project</Link>
                 </div>
-            </div> 
+            </div>
+            <div className="hox fox">
+                <img src={foll} alt="" />
+                <div className="velle">
+                    <h3>Blinkz web</h3>
+                    <Link to="https://web-domain.vercel.app/">View Project</Link>
+                </div>
+            </div>  
         </div>
     </div>
 </div>
