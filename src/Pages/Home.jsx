@@ -134,7 +134,7 @@ const Home=()=>{
                 <img src={foll} alt="" />
                 <div className="velle">
                     <h3>Blinkz web</h3>
-                    <Link to="https://web-domain.vercel.app/">View Project</Link>
+                    <Link to="https://web-domian.vercel.app/">View Project</Link>
                 </div>
             </div>  
         </div>
